@@ -26,3 +26,11 @@ $('body').on('click', '.js-scroll-top', function(e) {
 });
 
 ```
+
+### Experience:
+
+**Front-end developer** in Bed-grafix. 1 year of experience
+
+I graduated from the [Belarusian National Technical University](http://www.bntu.by/)
+
+English level **A2**
