@@ -6,7 +6,7 @@ My email: genavinokurov1@gmail.com
 
 Courteous and enthusiastic, I am interested in Front End and everything in its orbit.
 
-###My skills:
+### My skills:
 
 - HTML5
 - Pug
@@ -17,3 +17,12 @@ Courteous and enthusiastic, I am interested in Front End and everything in its o
 - jQuery
 - Git
 - Photoshop
+
+```JavaScript
+
+$('body').on('click', '.js-scroll-top', function(e) {
+    e.preventDefault()
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+});
+
+```
