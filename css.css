@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+}
+.container {
+  max-width: 1012px;
+  width: 100%;
+}
+.avatar {
+  max-width: 200px;
+  max-height: 200px;
+}
+.text a {
+  color: #0366d6;
+  text-decoration: none;
+}
+.title {
+  font-size: 1.17em;
+  color: #000;
+  font-weight: 600;
+}
+p span {
+  font-weight: 600;
+}
+.codeBlock {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+ul p {
+  margin-left: -40px;
+}
