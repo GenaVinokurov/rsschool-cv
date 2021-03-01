@@ -13,12 +13,16 @@
             <h1 class="">My resume</h1>
         </header>
         <main> 
-            <img class="avatar" src="./img/photo.jpg">
+            <img class="avatar" src="./img/photo.jpg" alt="avatar">
             <h2 class='title'>Gena Vinokurov</h2>
-            <p class="text">My email: <a class="link" href="mailto:genavinokurov1@gmail.com">genavinokurov1@gmail.com</a></p>
-            <p class="text">Courteous and enthusiastic, I am interested in Front End and everything in its orbit.</p>
+            <h3 class="title_list">Сontacts:</h3>
+            <ul>
+                <li class="text">My email: <a class="link" href="mailto:genavinokurov1@gmail.com">genavinokurov1@gmail.com</a></li>
+                <li class="text">Linkedin: <a class="link" href="https://www.linkedin.com/in/gena-vinokurov-275a6b183/">Gena Vinokurov</a></li>
+            </ul>
+            <p class="text">Courteous and enthusiastic, I am interested in <mark>Front End</mark> and everything in its orbit.</p>
+            <h3 class="title_list">My skills:</h3>
             <ul >
-                <p class="title">My skills:</p>
                 <li>HTML5</li>
                 <li>Pug</li>
                 <li>CSS</li>
@@ -30,10 +34,11 @@
                 <li>Photoshop</li>
             </ul>
             <div class="codeBlock">
-                <p class="code">$('body').on('click', '.js-scroll-top', function(e) { </br>
-                    e.preventDefault()</br>
-                    $("html, body").animate({ scrollTop: 0 }, "slow");</br>
-                });</p>
+                <details open="open">
+                    <summary>Code</summary>
+                    alert( 'Hello, world!' );
+                </details>
+                
             </div>
             <h3 class="title">Experience:</h3>
             <p class="text"><span>Front-end developer </span>in Bed-grafix. 1 year of experience</p>
